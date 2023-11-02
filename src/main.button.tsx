@@ -4,8 +4,8 @@ const MainButton = ({ id, title, val, onCLick }) => {
       onClick={onCLick}
       className={`${
         val === id
-          ? "bg-neutral-100 text-neutral-500"
-          : "bg-red-500 text-red-200 border-2 border-red-600"
+          ? "bg-neutral-100 text-neutral-500 border-t-2 border-indigo-500"
+          : "bg-red-500 text-red-200 border-t-2 border-red-400 outline-2 outline-double outline-red-700"
       } p-3 rounded-full relative w-20 h-10`}
     >
       <span className="absolute z-10 left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">

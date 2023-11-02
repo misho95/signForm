@@ -7,7 +7,9 @@ function App() {
   const [formActive, setFormActive] = useState(0);
 
   return (
-    <div className="w-full min-h-screen bg-neutral-300 flex justify-center items-center">
+    <div
+      className={`w-full min-h-screen flex justify-center items-center bg-[url('./assets/bg.jpg')] bg-cover`}
+    >
       <div className="w-[500px] p-5 flex flex-col gap-3">
         <div className="flex justify-around gap-3">
           <MainButton

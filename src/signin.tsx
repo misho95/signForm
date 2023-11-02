@@ -2,7 +2,7 @@ import FormInput from "./form.input";
 
 const SignIn = ({ onCLick }) => {
   return (
-    <form className="bg-neutral-100 p-3 rounded-lg flex flex-col gap-3">
+    <form className="bg-neutral-100/80 p-3 rounded-lg flex flex-col gap-3">
       <FormInput
         title={"Email"}
         type={"email"}
@@ -21,7 +21,7 @@ const SignIn = ({ onCLick }) => {
         </span>
       </p>
 
-      <button className="bg-green-500 p-1 rounded-full text-green-950 border-2 border-green-600">
+      <button className="bg-green-500 p-1 rounded-full text-green-950 border-t-2 border-green-400 outline-2 outline-double outline-green-600">
         Submit
       </button>
     </form>
